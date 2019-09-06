@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Bulb
 {
-    class BulbModule : PartModule
+    class ModuleLightBulb : ModuleLight
     {
         [KSPField(guiActive = true, guiName = "#autoLOC_6001402", isPersistant = true)]
         [UI_FloatRange(maxValue = 1, minValue = 0, scene = UI_Scene.Flight, stepIncrement = 0.05f)]
@@ -22,22 +22,38 @@ namespace Bulb
         Light light;
         Renderer emissive;
 
+        protected bool ready = false;
 
-        public override void OnAwake()
+        public override void OnStart(StartState state)
         {
-            light = part.FindModelComponent<Light>();
-            emissive = part.FindModelComponent<Renderer>();
+            base.OnStart(state);
+            if ((state != StartState.None) && (state != StartState.Editor) && (part != null))
+            {
+                light = part.FindModelComponent<Light>();
+                emissive = part.FindModelComponent<Renderer>();
+                if ((light != null) && (emissive != null))
+                {
+                    ready = true;
+                }
+            }
         }
 
-        public void Update()
+        public override void OnUpdate()
         {
-            if (HighLogic.LoadedSceneIsFlight)
-                if (!bulbColorRecorded)
-                    recordLightColor();
-                else
-                    setLightColor();
-            //else if (HighLogic.LoadedSceneIsEditor)
-                //recordLightColor();
+            if (ready)
+            {
+                if (HighLogic.LoadedSceneIsFlight)
+                {
+                    if (!bulbColorRecorded)
+                    {
+                        recordLightColor();
+                    }
+                    else
+                    {
+                        setLightColor();
+                    }
+                }
+            }
         }
 
         public void recordLightColor()

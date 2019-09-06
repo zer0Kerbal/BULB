@@ -1,0 +1,4 @@
+﻿v1.3.4.2 - September 6, 2019
+* Updated to KSP 1.7.3
+* (Unofficial) Fork from https://github.com/Alshain01/KSP-BULB by k-dueb
+* Started Changelog
