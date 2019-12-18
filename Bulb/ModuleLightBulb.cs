@@ -5,15 +5,15 @@ namespace Bulb
     class ModuleLightBulb : ModuleLight
     {
         [KSPField(guiActive = true, guiName = "#autoLOC_6001402", isPersistant = true)]
-        [UI_FloatRange(maxValue = 1, minValue = 0, scene = UI_Scene.Flight, stepIncrement = 0.05f)]
+        [UI_FloatRange(maxValue = 1, minValue = 0, scene = UI_Scene.Flight, stepIncrement = 0.01f)]
         protected float red = 0;
 
         [KSPField(guiActive = true, guiName = "#autoLOC_6001403", isPersistant = true)]
-        [UI_FloatRange(maxValue = 1, minValue = 0, scene = UI_Scene.Flight, stepIncrement = 0.05f)]
+        [UI_FloatRange(maxValue = 1, minValue = 0, scene = UI_Scene.Flight, stepIncrement = 0.01f)]
         protected float green = 0;
 
         [KSPField(guiActive = true, guiName = "#autoLOC_6001404", isPersistant = true)]
-        [UI_FloatRange(maxValue = 1, minValue = 0, scene = UI_Scene.Flight, stepIncrement = 0.05f)]
+        [UI_FloatRange(maxValue = 1, minValue = 0, scene = UI_Scene.Flight, stepIncrement = 0.01f)]
         protected float blue = 0;
 
         [KSPField(guiActive = false, isPersistant = true)]
