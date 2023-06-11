@@ -1,73 +1,125 @@
-## Version 1.8.1.1 for Kerbal Space Program 1.8.1
+# Changelog  
+  
+| modName    | Bright Utilitarian Luminescent Beacon (BULB)                      |
+| ---------- | ----------------------------------------------------------------- |
+| license    | GPL-3.0                                                           |
+| author     | Alshain and zer0Kerbal                                            |
+| forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/202945-*/) |
+| github     | (https://github.com/zer0Kerbal/BULB)                              |
+| curseforge | (https://www.curseforge.com/kerbal/ksp-mods/BULB)                 |
+| spacedock  | (https://spacedock.info/mod/552)                                  |
+| ckan       | BULB                                                              |
 
-Released on 2020-01-31
+## Version 1.8.1.1
 
-Just fixed the lacking of folder structure, drop the folder into game data folder :D
+* Released
+  * on 2020-01-31
+  * for Kerbal Space Program 1.8.1
+  * by [Jiraiyah](https://github.com/Jiraiyah)
 
-[ Download (15.85 KiB)](https://spacedock.info/mod/2316/Bulb Evolved/download/1.8.1.1)
-
-## Version 1.8.1 for Kerbal Space Program 1.8.1
-
-Released on 2020-01-29
-
-*No changelog provided*
+* Just fixed the lacking of folder structure, drop the folder into game data folder :D
+* [Download (15.85 KiB)](https://spacedock.info/mod/2316/Bulb Evolved/download/1.8.1.1)
 
 ---
+
+## Version 1.8.1.0
+
+* Released
+  * on 2020-01-29
+  * for Kerbal Space Program 1.8.1
+  * by [Jiraiyah](https://github.com/Jiraiyah)
 
 ### New Maintainer
 
+* *No changelog provided*
+
 ---
 
-##  Version 1.3.4 for Kerbal Space Program 1.3.0
 
-Released on 2017-05-27
+---
+
+## Version 1.3.4
+
+* Released
+  * on 2017-05-27
+  * for Kerbal Space Program 1.3.0
+  * by [Alshain](https://github.com/Alshain01)
 
 * Adds localization
+* [Download (65.38 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3.4)
 
-[ Download (65.38 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3.4)
+---
 
-## Version 1.3.3 for Kerbal Space Program 1.3.0
+## Version 1.3.3.0
 
-Released on 2017-05-26
+* Released
+  * on 2017-05-26
+  * for Kerbal Space Program 1.3.0
+  * by [Alshain](https://github.com/Alshain01)
 
--Update references to KSP v1.3.0 -Fixes an issue where pre-existing lights would reset their color when Bulb is first installed.
+* Update references to KSP v1.3.0
+* Fixes an issue where pre-existing lights would reset their color when Bulb is first installed.
+* [Download (65.37 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3.3)
 
-[ Download (65.37 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3.3)
+---
 
-## Version 1.3.2 for Kerbal Space Program 1.2
+## Version 1.3.2.0
 
-Released on 2016-10-27
+* Released
+  * on 2016-10-27
+  * for Kerbal Space Program 1.2
+  * by [Alshain](https://github.com/Alshain01)
 
-Flag Update
+* Flag Update
+* [Download (65.00 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3.2)
 
-[ Download (65.00 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3.2)
+---
 
-## Version 1.3.1 for Kerbal Space Program 1.2
+## Version 1.3.1.0
 
-Released on 2016-10-26
+* Released
+  * on 2016-10-26
+  * for Kerbal Space Program 1.2
+  * by [Alshain](https://github.com/Alshain01)
 
--Fixes an issue where light color would reset on scene change.
+* Fixes an issue where light color would reset on scene change.
+* [Download (84.73 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3.1)
 
-[ Download (84.73 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3.1)
+---
 
-## Version 1.3 for Kerbal Space Program 1.2
+## Version 1.3.0.0
 
-Released on 2016-10-12
+* Released
+  * on 2016-10-12
+  * for Kerbal Space Program 1.2
+  * by [Alshain](https://github.com/Alshain01)
 
--Recompile for 1.2
+* Recompile for 1.2
+* [Download (84.36 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3)
 
-[ Download (84.36 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3)
+---
 
-## Version 1.2 for Kerbal Space Program 1.1.3
+## Version 1.2.0.0
 
-Released on 2016-08-20
+* Released
+  * on 2016-08-20
+  * for Kerbal Space Program 1.1.3
+  * by [Alshain](https://github.com/Alshain01)
 
-Optimization Pass -Removed foreach loops -Reduced garbage collection
+* Optimization Pass
+  * Removed foreach loops
+  * Reduced garbage collection
+* [Download (78.69 KiB)](https://spacedock.info/mod/552/Bulb/download/1.2)
 
-[ Download (78.69 KiB)](https://spacedock.info/mod/552/Bulb/download/1.2)
+---
 
-## Version 1.1.0.0 for Kerbal Space Program 1.1.2
+## Version 1.1.0.0
 
-Released on 2016-04-21
+* Released
+  * on 2016-04-21
+  * for Kerbal Space Program 1.1.2
+  * by [Alshain](https://github.com/Alshain01)
 
-*No changelog provided*
+* *No changelog provided*
+
+---
