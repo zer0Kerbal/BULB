@@ -24,6 +24,16 @@ adopted with *express* permission and brought to you by *KerbSimpleCo*
 
 <img src="https://raw.githubusercontent.com/zer0Kerbal/BULB/master/img/HeroLogo.png" alt="BULB Hero" width="50%" height="50%">
 
+### Preamble by [`Jiraiyah`][auth-link:1]
+
+> The bulb mod, would let you change the color of light in the editor and during the flight,
+>
+> I took it one step farther, and now it will tweak the emissive color properly both in editor and flight, also, you will have two more controls for the intensity of the emissive color and a multiplier on top of that.
+>
+> Using these two extra controls, combined with the color, you can have very nice effects on your light objects.
+>
+> Hope you enjoy it.
+
 ### Preamble by [`Alshain`][auth-link]
 
 > Due to issues with moderation, my creative works will no longer be hosted on Squad official services. I apologize for the inconvenience. They may be available through other means which will not be linked here.
