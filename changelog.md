@@ -10,7 +10,7 @@
 | spacedock  | (https://spacedock.info/mod/552)                                  |
 | ckan       | BULB                                                              |
 
-## Version 1.8.1.1
+## Version 1.8.1.1-release - `<Archival Release>`
 
 * Released
   * on 2020-01-31
@@ -18,34 +18,53 @@
   * by [Jiraiyah](https://github.com/Jiraiyah)
 
 * Just fixed the lacking of folder structure, drop the folder into game data folder :D
-* [Download (15.85 KiB)](https://spacedock.info/mod/2316/Bulb Evolved/download/1.8.1.1)
+* [BULB.dll] v1.3.8.15
 
 ---
 
-## Version 1.8.1.0
+## Version 1.8.1.0-release - `<Archival Release>`
 
 * Released
   * on 2020-01-29
   * for Kerbal Space Program 1.8.1
   * by [Jiraiyah](https://github.com/Jiraiyah)
 
+* [BULB.dll] v1.3.8.15
 
-* *No changelog provided*
-
-v1.3.5.0 - December 18, 2019
-* Updated to KSP 1.8.1
-* Changed color increment to 0.01 for more precision.
-
-v1.3.4.2 - September 6, 2019
-* Updated to KSP 1.7.3
-* (Unofficial) Fork from https://github.com/Alshain01/KSP-BULB by k-dueb
-* Started Changelog
-
-### New Maintainer
+### New Maintainer Jiraiyah
 
 ---
 
-## Version 1.3.4.0 - `,Archival Release>`
+## Version 1.3.5.0-release - `<Archival Release>`
+
+* Released
+  * December 18, 2019
+  * for Kerbal Space Program 1.8.1
+  * by [k-dueb](https://github.com/k-dueb)
+
+* Updated to KSP 1.8.1
+* Changed color increment to 0.01 for more precision.
+* [BULB.dll] v1.3.5.14
+
+---
+
+## Version 1.3.4.2-release - `<Archival Release>`
+
+* Released
+  * September 6, 2019
+  * for Kerbal Space Program 1.7.3
+  * by [k-dueb](https://github.com/k-dueb)
+
+* (Unofficial) Fork from https://github.com/Alshain01/KSP-BULB by k-dueb
+* Updated to KSP 1.7.3
+* Started Changelog
+* [BULB.dll] v1.3.4.13
+
+### New Maintainer k-dueb
+
+---
+
+## Version 1.3.4.0-release - `<Archival Release>`
 
 * Released
   * on 2017-05-27
@@ -58,7 +77,7 @@ v1.3.4.2 - September 6, 2019
 
 ---
 
-## Version 1.3.3.0
+## Version 1.3.3.0-release - `<Archival Release>`
 
 * Released
   * on 2017-05-26
@@ -71,7 +90,7 @@ v1.3.4.2 - September 6, 2019
 
 ---
 
-## Version 1.3.2.0
+## Version 1.3.2.0-release - `<Archival Release>`
 
 * Released
   * on 2016-10-27
@@ -83,7 +102,7 @@ v1.3.4.2 - September 6, 2019
 
 ---
 
-## Version 1.3.1.0
+## Version 1.3.1.0-release - `<Archival Release>`
 
 * Released
   * on 2016-10-26
@@ -95,7 +114,7 @@ v1.3.4.2 - September 6, 2019
 
 ---
 
-## Version 1.3.0.0
+## Version 1.3.0.0-release - `<Archival Release>`
 
 * Released
   * on 2016-10-12
@@ -107,7 +126,7 @@ v1.3.4.2 - September 6, 2019
 
 ---
 
-## Version 1.2.0.0
+## Version 1.2.0.0-release - `<Archival Release>`
 
 * Released
   * on 2016-08-20
@@ -121,7 +140,7 @@ v1.3.4.2 - September 6, 2019
 
 ---
 
-## Version 1.1.0.0
+## Version 1.1.0.0-release - `<Archival Release>`
 
 * Released
   * on 2016-04-21
