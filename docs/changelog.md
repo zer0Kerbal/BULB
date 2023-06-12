@@ -22,7 +22,7 @@ CC BY-ND 4.0 by zer0Kerbal -->
 | spacedock  | (https://spacedock.info/mod/552)                                  |
 | ckan       | BULB                                                              |
 
-## Version 1.8.1.1
+## Version 1.8.1.1-release - `<Archival Release>`
 
 * Released
   * on 2020-01-31
@@ -34,20 +34,47 @@ CC BY-ND 4.0 by zer0Kerbal -->
 
 ---
 
-## Version 1.8.1.0
+## Version 1.8.1.0-release - `<Archival Release>`
 
 * Released
   * on 2020-01-29
   * for Kerbal Space Program 1.8.1
   * by [Jiraiyah](https://github.com/Jiraiyah)
 
-### New Maintainer
+### New Maintainer Jiraiyah
 
 * *No changelog provided*
 
 ---
 
-## Version 1.3.4.0
+## Version 1.3.5.0-release - `<Archival Release>`
+
+* Released
+  * December 18, 2019
+  * for Kerbal Space Program 1.8.1
+  * by [k-dueb](https://github.com/k-dueb)
+
+* Updated to KSP 1.8.1
+* Changed color increment to 0.01 for more precision.
+
+---
+
+## Version 1.3.4.2-release - `<Archival Release>`
+
+* Released
+  * September 6, 2019
+  * for Kerbal Space Program 1.7.3
+  * by [k-dueb](https://github.com/k-dueb)
+
+* (Unofficial) Fork from https://github.com/Alshain01/KSP-BULB by k-dueb
+* Updated to KSP 1.7.3
+* Started Changelog
+
+### New Maintainer k-dueb
+
+---
+
+## Version 1.3.4.0-release - `<Archival Release>`
 
 * Released
   * on 2017-05-27
@@ -60,7 +87,7 @@ CC BY-ND 4.0 by zer0Kerbal -->
 
 ---
 
-## Version 1.3.3.0
+## Version 1.3.3.0-release - `<Archival Release>`
 
 * Released
   * on 2017-05-26
@@ -73,7 +100,7 @@ CC BY-ND 4.0 by zer0Kerbal -->
 
 ---
 
-## Version 1.3.2.0
+## Version 1.3.2.0-release - `<Archival Release>`
 
 * Released
   * on 2016-10-27
@@ -85,7 +112,7 @@ CC BY-ND 4.0 by zer0Kerbal -->
 
 ---
 
-## Version 1.3.1.0
+## Version 1.3.1.0-release - `<Archival Release>`
 
 * Released
   * on 2016-10-26
@@ -97,7 +124,7 @@ CC BY-ND 4.0 by zer0Kerbal -->
 
 ---
 
-## Version 1.3.0.0
+## Version 1.3.0.0-release - `<Archival Release>`
 
 * Released
   * on 2016-10-12
@@ -109,7 +136,7 @@ CC BY-ND 4.0 by zer0Kerbal -->
 
 ---
 
-## Version 1.2.0.0
+## Version 1.2.0.0-release - `<Archival Release>`
 
 * Released
   * on 2016-08-20
@@ -123,7 +150,7 @@ CC BY-ND 4.0 by zer0Kerbal -->
 
 ---
 
-## Version 1.1.0.0
+## Version 1.1.0.0-release - `<Archival Release>`
 
 * Released
   * on 2016-04-21
