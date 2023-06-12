@@ -58,7 +58,7 @@
 * (Unofficial) Fork from https://github.com/Alshain01/KSP-BULB by k-dueb
 * Updated to KSP 1.7.3
 * Started Changelog
-* [BULB.dll] v1.3.4.13
+* [BULB.dll] v1.3.4.14
 
 ### New Maintainer k-dueb
 
