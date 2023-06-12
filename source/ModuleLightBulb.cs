@@ -17,8 +17,8 @@
 */
 #endregion
 using System;
+using System.Linq;
 // using System.Collections.Generic;
-// using System.Linq;
 // using System.Text;
 // using KSP;
 // using KSP.UI.Screens;
@@ -28,82 +28,77 @@ using UnityEngine;
 namespace Bulb
 {
 	class ModuleLightBulb : ModuleLight
-    {
-        // k-dueb change in 1.3.4.2 (stepIncrement from 0.05f
+	{
 		[KSPField(guiActive = true, guiName = "#autoLOC_6001402", isPersistant = true)]
 		[UI_FloatRange(maxValue = 1, minValue = 0, scene = UI_Scene.Flight, stepIncrement = 0.01f)]
-		protected float red = 0;
+		protected float red = 0.72f;
 
-        // k-dueb change in 1.3.4.2 (stepIncrement from 0.05f
 		[KSPField(guiActive = true, guiName = "#autoLOC_6001403", isPersistant = true)]
 		[UI_FloatRange(maxValue = 1, minValue = 0, scene = UI_Scene.Flight, stepIncrement = 0.01f)]
-		protected float green = 0;
+		protected float green = 0.35f;
 
-        // k-dueb change in 1.3.4.2 (stepIncrement from 0.05f
 		[KSPField(guiActive = true, guiName = "#autoLOC_6001404", isPersistant = true)]
 		[UI_FloatRange(maxValue = 1, minValue = 0, scene = UI_Scene.Flight, stepIncrement = 0.01f)]
-		protected float blue = 0;
+		protected float blue = 0.0f;
 
-		[KSPField(guiActive = false, isPersistant = true)]
-		bool bulbColorRecorded = false;
+		[KSPField(guiActive = true, guiName = "Emissive Multiplier", isPersistant = true, guiActiveEditor = true)]
+		[UI_FloatRange(maxValue = 3, minValue = 0, stepIncrement = 0.01f)]
+		protected float emissiveMultipier = 1.73f;
 
-		Light light;
-		Renderer emissive;
+		[KSPField(guiActive = true, guiName = "Emissive Brightness", isPersistant = true, guiActiveEditor = true)]
+		[UI_FloatRange(stepIncrement = 0.01f, maxValue = 1f, minValue = 0f)]
+		public float lensBrightness = 0.0f;
 
-        protected bool ready = false;
-
-        /*
-                // Alshain original
-                public override void OnAwake()
-                {
-                    light = part.FindModelComponent<Light>();
-                    emissive = part.FindModelComponent<Renderer>();
-                }
-        */
-        // k-dueb change in 1.3.4.2
-        public override void OnStart(StartState state)
+		public override void OnInitialize()
 		{
-			base.OnStart(state);
-			if ((state != StartState.None) && (state != StartState.Editor) && (part != null))
+			base.OnInitialize();
+			lightR = red;
+			lightG = green;
+			lightB = blue;
+			UpdateLightTextureColor();
+		}
+
+		public override void OnAwake()
+		{
+			base.OnAwake();
+			Fields["lensBrightness"].OnValueModified += (x => UpdateLightTextureColor());
+			Fields["emissiveMultipier"].OnValueModified += (x => UpdateLightTextureColor());
+			Fields["green"].OnValueModified += (x => UpdateLightTextureColor());
+			Fields["blue"].OnValueModified += (x => UpdateLightTextureColor());
+			Fields["red"].OnValueModified += (x => UpdateLightTextureColor());
+			Fields["lightG"].OnValueModified += (x => UpdateLightTextureColor());
+			Fields["lightB"].OnValueModified += (x => UpdateLightTextureColor());
+			Fields["lightR"].OnValueModified += (x => UpdateLightTextureColor());
+		}
+
+		public virtual void UpdateLightTextureColor()
+		{
+			if (HighLogic.LoadedSceneIsEditor)
 			{
-				light = part.FindModelComponent<Light>();
-				emissive = part.FindModelComponent<Renderer>();
-				
-				if ((light != null) && (emissive != null))
-				{
-					ready = true;
-				}
+				red = lightR;
+				green = lightG;
+				blue = lightB;
+			}
+			part.FindModelComponents<Light>().ToList().ForEach(r =>
+			{
+				r.color = new Color(red, green, blue, 1);
+			});
+			part.FindModelComponents<Renderer>()
+				.Where(r => r.material.HasProperty("_EmissiveColor"))
+				.ToList()
+				.ForEach(r => r.material.SetColor("_EmissiveColor", GetEmissiveTextureColor()));
+			if (HighLogic.LoadedSceneIsEditor)
+			{
+				emissiveMultipier += 0.01f;
+				emissiveMultipier -= 0.01f;
 			}
 		}
 
-		public void Update()
+		protected virtual Color GetEmissiveTextureColor()
 		{
-			if (HighLogic.LoadedSceneIsFlight)
-				if (!bulbColorRecorded)
-					recordLightColor();
-				else
-					setLightColor();
-			//else if (HighLogic.LoadedSceneIsEditor)
-				//recordLightColor();
-		}
-
-		public void recordLightColor()
-		{
-			if (light == null) return;
-			red = light.color.r;
-			green = light.color.g;
-			blue = light.color.b;
-			bulbColorRecorded = true;
-		}
-
-		public void setLightColor()
-		{
-			if (emissive == null || light == null) return;
-			if (light.color.r != red || light.color.g != green || light.color.b != blue)
-			{
-				light.color = new Color(red, green, blue, 1);
-				emissive.material.SetColor("_EmissiveColor", light.color);
-			}
+			return new Color((red * (1.0f - lensBrightness) + lensBrightness) * emissiveMultipier,
+				(green * (1.0f - lensBrightness) + lensBrightness) * emissiveMultipier,
+				(blue * (1.0f - lensBrightness) + lensBrightness) * emissiveMultipier);
 		}
 	}
 }

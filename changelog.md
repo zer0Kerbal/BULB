@@ -18,7 +18,7 @@
   * by [Jiraiyah](https://github.com/Jiraiyah)
 
 * Just fixed the lacking of folder structure, drop the folder into game data folder :D
-* [Download (15.85 KiB)](https://spacedock.info/mod/2316/Bulb Evolved/download/1.8.1.1)
+* [BULB.dll] v1.8.1.16
 
 ---
 
@@ -29,9 +29,9 @@
   * for Kerbal Space Program 1.8.1
   * by [Jiraiyah](https://github.com/Jiraiyah)
 
-### New Maintainer Jiraiyah
+* [BULB.dll] v1.8.1.16
 
-* *No changelog provided*
+### New Maintainer Jiraiyah
 
 ---
 
