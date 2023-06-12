@@ -30,7 +30,7 @@ CC BY-ND 4.0 by zer0Kerbal -->
   * by [Jiraiyah](https://github.com/Jiraiyah)
 
 * Just fixed the lacking of folder structure, drop the folder into game data folder :D
-* [BULB.dll] v1.3.8.15
+* [BULB.dll] v1.8.1.16
 
 ---
 
@@ -41,7 +41,7 @@ CC BY-ND 4.0 by zer0Kerbal -->
   * for Kerbal Space Program 1.8.1
   * by [Jiraiyah](https://github.com/Jiraiyah)
 
-* [BULB.dll] v1.3.8.15
+* [BULB.dll] v1.8.1.16
 
 ### New Maintainer Jiraiyah
 
