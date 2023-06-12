@@ -102,7 +102,8 @@ plugin
 ### Credits and Special Thanks
 
 >* [Alshain][auth-link] for creating this glorious parts addon!
->* [Jiraiyah][auth-link:1] for the *Evolving* the BULB where [Alshain][auth-link] left off
+>* [dueb][auth-link-1] for the unofficial rebuild(s)
+>* [Jiraiyah][auth-link:2] for the *Evolving* the BULB where [Alshain][auth-link] left off
 >* see [Attributions][attrb] for more
 
 ### Legal Mumbo Jumbo (License *provenance*)
@@ -213,7 +214,8 @@ Comment, click, like, share, up-vote, subscribe
 [projects]: https://zer0kerbal.github.io/zer0Kerbal/projects.html
 
 [auth-link]: https://forum.kerbalspaceprogram.com/index.php?/profile/110959-*/ "Alshain"
-[auth-link:1]: https://forum.kerbalspaceprogram.com/index.php?/profile/97667-*/ "Jiraiyah"
+[auth-link:1]: https://forum.kerbalspaceprogram.com/index.php?/profile/65409-*/ "dueb"
+[auth-link:2]: https://forum.kerbalspaceprogram.com/index.php?/profile/97667-*/ "Jiraiyah"
 [zer0Kerbal]: https://forum.kerbalspaceprogram.com/index.php?/profile/190933-*/ "zer0Kerbal"
 
 #### Connect with me
