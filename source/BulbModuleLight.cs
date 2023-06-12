@@ -16,7 +16,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 #endregion
-// using System;
+using System;
 // using System.Collections.Generic;
 // using System.Linq;
 // using System.Text;
@@ -47,16 +47,18 @@ namespace Bulb
 		Light light;
 		Renderer emissive;
 
-/*
-		// Alshain original
-		public override void OnAwake()
-		{
-			light = part.FindModelComponent<Light>();
-			emissive = part.FindModelComponent<Renderer>();
-		}
-*/
-		// k-dueb change in 1.3.4.2
-		public override void OnStart(StartState state)
+        protected bool ready = false;
+
+        /*
+                // Alshain original
+                public override void OnAwake()
+                {
+                    light = part.FindModelComponent<Light>();
+                    emissive = part.FindModelComponent<Renderer>();
+                }
+        */
+        // k-dueb change in 1.3.4.2
+        public override void OnStart(StartState state)
 		{
 			base.OnStart(state);
 			if ((state != StartState.None) && (state != StartState.Editor) && (part != null))
