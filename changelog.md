@@ -35,7 +35,32 @@
 
 ---
 
-## Version 1.3.4.0
+## Version 1.3.5.0
+
+* Released
+  * December 18, 2019
+  * for Kerbal Space Program 1.8.1
+  * by [k-dueb](https://github.com/k-dueb)
+
+* Updated to KSP 1.8.1
+* Changed color increment to 0.01 for more precision.
+
+---
+
+## Version 1.3.4.2
+
+* Released
+  * September 6, 2019
+  * for Kerbal Space Program 1.7.3
+  * by [k-dueb](https://github.com/k-dueb)
+
+* (Unofficial) Fork from https://github.com/Alshain01/KSP-BULB by k-dueb
+* Updated to KSP 1.7.3
+* Started Changelog
+
+### New Maintainer
+
+---
 
 * Released
   * on 2017-05-27
