@@ -102,7 +102,7 @@ plugin
 ### Credits and Special Thanks
 
 >* [Alshain][auth-link] for creating this glorious parts addon!
->* [dueb][auth-link-1] for the unofficial rebuild(s)
+>* [dueb][auth-link:1] for the unofficial rebuild(s)
 >* [Jiraiyah][auth-link:2] for the *Evolving* the BULB where [Alshain][auth-link] left off
 >* see [Attributions][attrb] for more
 
