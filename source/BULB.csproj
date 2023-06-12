@@ -9,7 +9,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>BULB</RootNamespace>
     <AssemblyName>BULB</AssemblyName>
-    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <LangVersion>latest</LangVersion>
@@ -41,19 +41,19 @@
 		<DocumentationFile>..\docs\Code\Code.xml</DocumentationFile>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="$(K17)Assembly-CSharp.dll">
+    <Reference Include="$(K18)Assembly-CSharp.dll">
       <Private>False</Private>
     </Reference>
-    <!-- <Reference Include="$(K17)Assembly-CSharp-firstpass.dll">
+    <!-- <Reference Include="$(K18)Assembly-CSharp-firstpass.dll">
       <Private>False</Private>
     </Reference> -->
-    <Reference Include="$(K17)UnityEngine.dll">
+    <Reference Include="$(K18)UnityEngine.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="$(K17)UnityEngine.CoreModule.dll">
+    <Reference Include="$(K18)UnityEngine.CoreModule.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="$(K17)UnityEngine.UI.dll">
+    <Reference Include="$(K18)UnityEngine.UI.dll">
       <Private>False</Private>
     </Reference>
     <!-- <Reference Include="System" />
@@ -66,7 +66,7 @@
     <!-- <Reference Include="UnityEngine"> -->
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BulbModuleLight.cs" />
+    <Compile Include="ModuleLightBulb.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Version.cs">
       <AutoGen>True</AutoGen>
@@ -91,10 +91,10 @@
   </PropertyGroup>
   <PropertyGroup>
     <PostBuildEvent>
-set K13=$(K13)
-IF "%25K13%25"=="" (
-	ECHO Configuration error - K13 not specified in project.
-	ECHO Either set K13 environment variable
+set K18=$(K18)
+IF "%25K18%25"=="" (
+	ECHO Configuration error - K18 not specified in project.
+	ECHO Either set K18 environment variable
 	PAUSE
 	rem GOTO DONE
 )
