@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BULB</name>
+    </assembly>
+    <members>
+        <member name="T:BULB.Version">
+            <summary>Version - retrieved at compile from BULB.version</summary>
+        </member>
+        <member name="F:BULB.Version.major">
+            <summary>Major revision</summary>
+        </member>
+        <member name="F:BULB.Version.minor">
+            <summary>Minor revision</summary>
+        </member>
+        <member name="F:BULB.Version.patch">
+            <summary>Patch revision</summary>
+        </member>
+        <member name="F:BULB.Version.build">
+            <summary>Build revision</summary>
+        </member>
+        <member name="F:BULB.Version.Number">
+            <summary>Version String const</summary>
+        </member>
+        <member name="F:BULB.Version.Text">
+            <summary>Text Version String const</summary>
+        </member>
+        <member name="F:BULB.Version.SText">
+            <summary>Plain Text Version String const</summary>
+        </member>
+    </members>
+</doc>
