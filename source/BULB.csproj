@@ -44,9 +44,9 @@
     <Reference Include="$(K17)Assembly-CSharp.dll">
       <Private>False</Private>
     </Reference>
-    <Reference Include="$(K17)Assembly-CSharp-firstpass.dll">
+    <!-- <Reference Include="$(K17)Assembly-CSharp-firstpass.dll">
       <Private>False</Private>
-    </Reference>
+    </Reference> -->
     <Reference Include="$(K17)UnityEngine.dll">
       <Private>False</Private>
     </Reference>
