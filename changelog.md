@@ -1,9 +1,9 @@
 # Changelog  
   
-| modName    | Bright Utilitarian Luminescent Beacon (BULB)                      |
+| modName    | Bright Utilitarian Luminescent Beacon (BULB) by Alshain           |
 | ---------- | ----------------------------------------------------------------- |
 | license    | GPL-3.0                                                           |
-| author     | Alshain and zer0Kerbal                                            |
+| author     | Alshain, Jiraiyah and zer0Kerbal                                  |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/202945-*/) |
 | github     | (https://github.com/zer0Kerbal/BULB)                              |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/BULB)                 |
@@ -42,6 +42,7 @@
   * for Kerbal Space Program 1.3.0
   * by [Alshain](https://github.com/Alshain01)
 
+* [BULB.dll] v1.3.4.10
 * Adds localization
 * [Download (65.38 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3.4)
 
