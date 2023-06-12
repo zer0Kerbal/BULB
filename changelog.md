@@ -10,6 +10,10 @@
 | spacedock  | (https://spacedock.info/mod/552)                                  |
 | ckan       | BULB                                                              |
 
+* 📌 Pinned
+  * Dependencies:
+    * [ModularManagement (MM)](https://www.curseforge.com/kerbal/ksp-mods/ModularManagement) or [Module Manager](https://forum.kerbalspaceprogram.com/index.php?/topic/50533-*/)
+
 ## Version 1.8.99.0-adoption - `<Thank you Alshain, dueb and Jiraiyah>` edition
 
 * Released
@@ -17,6 +21,67 @@
   * for Kerbal Space Program 1.12.5
   * by [zer0Kerbal](https://github.com/zer0Kerbal)
 
+## Adopted by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+### Change Summary 1.8.99.0
+
+* Compile for 1.12.5
+  * .NET 3.5
+  * C# 5.0
+* Localize code (add two new strings)
+* [BULB.dll] v1.8.1.16 --> v1.8.99.17
+
+### Changes
+
+#### Code 1.8.99.0
+
+* Add
+  * [Version.tt]
+* Update
+  * Localize code (add two new strings)
+  * [ModuleLightBulb.csproj]
+  * [ModuleLightBulb.Unity.csproj]
+  * [ModuleLightBulb.sln]
+  * [AssemblyInfo.cs]
+* closes #34 - Code Localization
+
+
+#### Localization 1.8.99.0
+
+* Create
+  * Localization/
+    * [en-us.cfg] v1.0.0.0
+    * [readme.md] v2.1.2.1
+    * [quickstart.md] v1.0.2.0
+    * [readme-ru.md] v1.0.1.0
+    * [quickstart-ru.md] v1.0.0.0
+    * translations by: (Spasibo) [evanisrael](https://github.com/evanisrael)
+* closes #17 - English <en-us.cfg>
+* updates #16 - Localization - Master
+
+### Create 1.8.99.0
+
+* GitHub Pages
+  * docs/
+    * [_config.yml] v1.0.0.0
+    * [404.md] v1.0.0.0
+    * [Attributions.md] v1.0.0.0
+    * [Disclaimer.md] v1.0.0.0
+    * [LegalMumboJumbo.md] v1.0.0.0
+    * [Localizations.md] v1.0.0.0
+    * [ManualInstallation.md] v1.0.0.0
+    * [Marketing.md] v1.0.0.0
+    * [Notices.md] v1.0.0.0
+    * [Why.md] v1.0.0.0
+* HeroLogo.png
+  * copy/convert to HeroLogo.jpg
+* closes #6 - Create GitHub Pages
+* closes #7 - Create HeroLogo.png
+* Issues
+  * closes #2 - Bright Utilitarian Luminescent Beacon (BULB) 1.8.99.0-adoption `<Thank you Alshain, deub and Jiraiyah>` edition
+  * closes #3 - 1.1.99.0 Create Legal Mumbo Jumbo
+  * closes #4 - 1.1.99.0 Create Documentation
+  * closes #5 - 1.1.99.0 Create Social Media Presence
 
 ---
 
@@ -120,7 +185,7 @@
 
 ---
 
-## Version 1.3.0.0-release - `<Archival Release>`
+## Version 1.8.99.0-release - `<Archival Release>`
 
 * Released
   * on 2016-10-12
