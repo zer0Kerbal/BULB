@@ -45,7 +45,6 @@
   * [AssemblyInfo.cs]
 * closes #34 - Code Localization
 
-
 #### Localization 1.8.99.0
 
 * Create
