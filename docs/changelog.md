@@ -56,6 +56,7 @@ CC BY-ND 4.0 by zer0Kerbal -->
 
 * Updated to KSP 1.8.1
 * Changed color increment to 0.01 for more precision.
+* [BULB.dll] v1.3.5.14
 
 ---
 
@@ -69,6 +70,7 @@ CC BY-ND 4.0 by zer0Kerbal -->
 * (Unofficial) Fork from https://github.com/Alshain01/KSP-BULB by k-dueb
 * Updated to KSP 1.7.3
 * Started Changelog
+* [BULB.dll] v1.3.4.13
 
 ### New Maintainer k-dueb
 
