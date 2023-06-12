@@ -41,11 +41,11 @@ namespace Bulb
 		[UI_FloatRange(maxValue = 1, minValue = 0, scene = UI_Scene.Flight, stepIncrement = 0.01f)]
 		protected float blue = 0.0f;
 
-		[KSPField(guiActive = true, guiName = "Emissive Multiplier", isPersistant = true, guiActiveEditor = true)]
+		[KSPField(guiActive = true, guiName = "#BULB-emm-mult", isPersistant = true, guiActiveEditor = true)]
 		[UI_FloatRange(maxValue = 3, minValue = 0, stepIncrement = 0.01f)]
 		protected float emissiveMultipier = 1.73f;
 
-		[KSPField(guiActive = true, guiName = "Emissive Brightness", isPersistant = true, guiActiveEditor = true)]
+		[KSPField(guiActive = true, guiName = "#BULB-emm-bright", isPersistant = true, guiActiveEditor = true)]
 		[UI_FloatRange(stepIncrement = 0.01f, maxValue = 1f, minValue = 0f)]
 		public float lensBrightness = 0.0f;
 
