@@ -29,9 +29,19 @@
   * for Kerbal Space Program 1.8.1
   * by [Jiraiyah](https://github.com/Jiraiyah)
 
-### New Maintainer
 
 * *No changelog provided*
+
+v1.3.5.0 - December 18, 2019
+* Updated to KSP 1.8.1
+* Changed color increment to 0.01 for more precision.
+
+v1.3.4.2 - September 6, 2019
+* Updated to KSP 1.7.3
+* (Unofficial) Fork from https://github.com/Alshain01/KSP-BULB by k-dueb
+* Started Changelog
+
+### New Maintainer
 
 ---
 
