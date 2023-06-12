@@ -2,13 +2,23 @@
   
 | modName    | Bright Utilitarian Luminescent Beacon (BULB) by Alshain           |
 | ---------- | ----------------------------------------------------------------- |
-| license    | GPL-3.0                                                           |
-| author     | Alshain, Jiraiyah and zer0Kerbal                                  |
+| license    | GPL-3.0+ARR                                                       |
+| author     | Alshain, deub, Jiraiyah and zer0Kerbal                            |
 | forum      | (https://forum.kerbalspaceprogram.com/index.php?/topic/202945-*/) |
 | github     | (https://github.com/zer0Kerbal/BULB)                              |
 | curseforge | (https://www.curseforge.com/kerbal/ksp-mods/BULB)                 |
 | spacedock  | (https://spacedock.info/mod/552)                                  |
 | ckan       | BULB                                                              |
+
+## Version 1.8.99.0-adoption - `<Thank you Alshain, dueb and Jiraiyah>` edition
+
+* Released
+  * 11 Jun 2023
+  * for Kerbal Space Program 1.12.5
+  * by [zer0Kerbal](https://github.com/zer0Kerbal)
+
+
+---
 
 ## Version 1.8.1.1-release - `<Archival Release>`
 
@@ -73,7 +83,6 @@
 
 * [BULB.dll] v1.3.4.10
 * Adds localization
-* [Download (65.38 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3.4)
 
 ---
 
@@ -86,7 +95,6 @@
 
 * Update references to KSP v1.3.0
 * Fixes an issue where pre-existing lights would reset their color when Bulb is first installed.
-* [Download (65.37 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3.3)
 
 ---
 
@@ -98,7 +106,6 @@
   * by [Alshain](https://github.com/Alshain01)
 
 * Flag Update
-* [Download (65.00 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3.2)
 
 ---
 
@@ -110,7 +117,6 @@
   * by [Alshain](https://github.com/Alshain01)
 
 * Fixes an issue where light color would reset on scene change.
-* [Download (84.73 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3.1)
 
 ---
 
@@ -122,7 +128,6 @@
   * by [Alshain](https://github.com/Alshain01)
 
 * Recompile for 1.2
-* [Download (84.36 KiB)](https://spacedock.info/mod/552/Bulb/download/1.3)
 
 ---
 
@@ -136,7 +141,6 @@
 * Optimization Pass
   * Removed foreach loops
   * Reduced garbage collection
-* [Download (78.69 KiB)](https://spacedock.info/mod/552/Bulb/download/1.2)
 
 ---
 
